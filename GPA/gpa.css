@@ -1,0 +1,102 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    text-align: center;
+}
+
+/* Header */
+.header {
+    background-color: #fddbef;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    color: #555;
+}
+
+/* GPA Calculator Title Button */
+.gpa-title {
+    background-color: #fddbef;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: inline;
+    font-weight: bold;
+    color: #555;
+    margin-top: 20px;
+    text-align: left;
+}
+
+/* Form Layout */
+.gpa-form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Semester Input */
+.semester-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.semester-container input {
+    width: 50px;
+    margin-left: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Table Styles */
+.table-container {
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+
+.table-container th {
+    background-color: #fddbef;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.table-container td {
+    padding: 5px;
+}
+
+.table-container input {
+    width: 120px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Buttons */
+.button {
+    background-color: #fddbef;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 15px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.button:hover {
+    background-color: #fcb3d4;
+}
+
+/* Navigation Buttons */
+.nav-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.nav-buttons .button {
+    padding: 10px 20px;
+}

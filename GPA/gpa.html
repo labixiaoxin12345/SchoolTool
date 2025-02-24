@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPA Calculator</title>
+    <link rel="stylesheet" href="gpa.css">
+</head>
+<body>
+
+    <div class="header">Calculators</div>
+<br>
+<br>
+    <div class="gpa-title">My GPA Calculator</div>
+
+    <div class="gpa-form">
+        <div class="semester-container">
+            <label>Semester</label>
+            <input type="text">
+        </div>
+
+        <table class="table-container">
+            <thead>
+                <tr>
+                    <th>Module Name</th>
+                    <th>Credit Unit</th>
+                    <th>Grade</th>
+                </tr>
+            </thead>
+            <tbody id="modules-body">
+                <tr>
+                    <td><input type="text" class="module-name"></td>
+                    <td><input type="number" class="credit-unit" min="1"></td>
+                    <td><input type="text" class="grade"></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <button id="add-module" class="button">Add more modules</button>
+        <button id="calculate-gpa" class="button">Calculate</button>
+        <button id="calculate-gpa" class="button" onclick="window.location.href='/Home.html'">Back</button>
+        
+        <!-- GPA Result Box -->
+        <div id="gpa-result"></div>
+    </div>
+
+    <script src="./gpa.js"></script>
+</body>
+</html>
