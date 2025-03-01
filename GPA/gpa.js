@@ -62,8 +62,11 @@ document.addEventListener("DOMContentLoaded", function () {
     // Function to convert letter grade to grade points
     function getGradePoint(grade) {
         const gradeScale = {
-            "A": 4.0,
-            "B+": 3.5,
+            "A+": 5.0,
+            "A": 5.0,
+            "A-": 4.5,
+            "B+": 4.0,
+            "B": 3.5,
             "B": 3.0,
             "C+": 2.5,
             "C": 2.0,
